@@ -7,7 +7,7 @@ const pdfParse = require("pdf-parse");
 const XLSX = require("xlsx");
 const Tesseract = require("tesseract.js");
 
-const GEMINI_API_KEY = "YOUR_KEY_HERE"; // Replace with your actual Gemini API Key
+const GEMINI_API_KEY = "Your_Key"; // Replace with your actual Gemini API Key
 
 // Helper to extract text from a PDF
 const extractTextFromPDF = async (filePath) => {
